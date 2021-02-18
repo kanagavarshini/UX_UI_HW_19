@@ -1,0 +1,214 @@
+h1, h2, h3 , h4, h5, h6 {
+  font-family:  sans-serif;
+}
+p {
+  font-family:  sans-serif;
+  font-size: 32px;
+}
+
+html, body {
+  margin: 0; padding: 0;
+  scroll-behavior: smooth;
+}
+/* Header nav content */
+.customNav {
+  position: fixed;
+  width: 100%;
+  /* background-color: transparent !important; */
+   background-color: rgb(224, 84, 84) !important; 
+   background-size: cover; 
+  z-index: 10;
+}
+/*.collapsed{
+  background-color: rgb(224, 84, 84) ;
+  color:white;
+  border-color: white;
+  margin-left: 500px;
+  margin-top:0;
+}
+/.collapse { 
+  
+  align-items: center;
+  background-color: salmon;
+  border: solid 1px salmon;
+  height:300px;
+  width:100%;
+}
+
+.collapse {
+  padding: 50px;
+  display: none;
+}
+.collapse ul{
+  display:flex;
+  flex-direction:row;
+  justify-content: space-evenly;
+  list-style: none;
+
+  
+}*/
+
+
+.navbar-nav {
+  margin-left: 840px;
+  /* margin-left: auto; */
+  /* margin-right: 0 !important; */
+}
+.navbar-brand{
+  margin-left: 150px;
+}
+.navbar-brand img {
+  padding-bottom: 10px;
+  padding-right: 15px;
+  width:75px;
+}
+.nav-item {
+  margin: 0px 15px ;
+  
+}
+/* Navigation links */
+.customNav a {
+  color:white !important;
+}
+.navCTA {
+  font-size: 15px;
+}
+/* Hero image and content */
+.hero-bkg-animated {
+  background: gray url(https://subtlepatterns.com/patterns/geometry2.png) repeat 0 0;
+  width: 100%;
+  margin-left: 0;
+  margin-bottom: 75px;
+  margin-right: 0;
+  margin-top: 0;
+  text-align: center;
+  height: 600px;
+  box-sizing: border-box;
+  animation: slide 20s linear infinite;
+}
+
+.hero-bkg-animated h1 {
+  font-family: sans-serif;
+}
+
+@keyframes slide {
+    from { background-position: 0 0; }
+    to { background-position: -400px 0; }
+} 
+
+.container{
+  
+  padding-top: 10%;
+  max-width:80%;
+}
+.headerTxt{
+  font-size: 25px;
+  text-align: left;
+}
+
+
+a{
+  color:white;
+}
+/* My work */
+.content1{
+  
+  margin-top: 100px;
+  margin-right: 15px;
+  margin-left: 75px;
+  
+}
+.valueProp p{
+  font-size: 22px;
+  text-align: left;
+  margin-left: 200px;
+  margin-bottom: 100px;
+}
+ 
+.imageContainer img {
+  width: 100%;
+}
+.imageContainer {
+  margin-left: 0px;
+}
+.valueProp {
+  margin-top: 15px;
+  
+  margin-left: 75px;
+}
+.gray{
+  background-color: #F9FAFB ;
+}
+.sectionHeading1 {
+  text-align: left;
+  margin-left: 75px; 
+  margin-bottom: 75px;
+  color:#007bff;
+}
+.valueProp h2{
+  text-align: center;
+  margin-bottom: 10px;
+  font-size: 32px ;
+}
+
+/* My skills Cards */
+.content {
+  margin-top: 100px;
+  margin-right: 15px;
+  margin-left: 130px;
+  
+}
+.sectionHeading {
+  text-align: left;
+  margin-left: 30px; 
+  margin-bottom: 75px;
+  color:#007bff;
+}
+.content p{
+  font-size: 22px;
+}
+.skills  {
+  padding: 0px  ;
+}
+.cardContainer {
+  text-align: center;
+  align-items: center;
+  margin: 20px;
+  
+}
+.cardContainer img{
+  display: block;
+  width:30%;
+  margin: auto;
+  
+}
+
+.card{
+  background-color: rgb(187, 181, 183);
+}
+/* footer */
+
+footer {
+
+  background-color:  rgb(224, 84, 84);
+  
+  margin-top: 50px;
+  
+  color: white;
+  
+}
+.sectionHeading2{
+  text-align: center;
+  margin-top: 0;
+  margin-bottom: 30px;
+}
+footer ul{
+  display:flex;
+  flex-direction:row;
+  justify-content: space-evenly;
+  list-style: none;
+  
+  
+}
+
+
