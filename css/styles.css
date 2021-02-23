@@ -19,14 +19,14 @@ html, body {
    background-size: cover; 
   z-index: 10;
 }
-/*.collapsed{
+.collapsed{
   background-color: rgb(224, 84, 84) ;
   color:white;
   border-color: white;
   margin-left: 500px;
   margin-top:0;
 }
-/.collapse { 
+.collapse { 
   
   align-items: center;
   background-color: salmon;
@@ -46,7 +46,7 @@ html, body {
   list-style: none;
 
   
-}*/
+}
 
 
 .navbar-nav {
