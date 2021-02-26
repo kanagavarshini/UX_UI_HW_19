@@ -1,14 +1,14 @@
 h1, h2, h3 , h4, h5, h6 {
-  font-family:  sans-serif;
+  font-family:  "Lora", Times, serif;
 }
 p {
-  font-family:  sans-serif;
+  font-family:  "Lora", Times, serif;
   font-size: 32px;
 }
 
 html, body {
   margin: 0; padding: 0;
-  scroll-behavior: smooth;
+  
 }
 /* Header nav content */
 .customNav {
@@ -18,34 +18,6 @@ html, body {
    background-color: rgb(224, 84, 84) !important; 
    background-size: cover; 
   z-index: 10;
-}
-.collapsed{
-  background-color: rgb(224, 84, 84) ;
-  color:white;
-  border-color: white;
-  margin-left: 500px;
-  margin-top:0;
-}
-.collapse { 
-  
-  align-items: center;
-  background-color: salmon;
-  border: solid 1px salmon;
-  height:300px;
-  width:100%;
-}
-
-.collapse {
-  padding: 50px;
-  display: none;
-}
-.collapse ul{
-  display:flex;
-  flex-direction:row;
-  justify-content: space-evenly;
-  list-style: none;
-
-  
 }
 
 
@@ -88,13 +60,12 @@ html, body {
 }
 
 .hero-bkg-animated h1 {
-  font-family: sans-serif;
+  font-family: "Lora", Times, serif;
 }
-
 @keyframes slide {
-    from { background-position: 0 0; }
-    to { background-position: -400px 0; }
-} 
+  from { background-position: 0 0; }
+  to { background-position: -400px 0; }
+}
 
 .container{
   
